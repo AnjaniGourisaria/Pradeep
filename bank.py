@@ -1,7 +1,7 @@
 #Program for the Banking System
 import mysql.connector
 from functions import *
-cnx=mysql.connector.connect(user='root',password='sweethome',host='127.0.0.1',database='vishal')
+cnx=mysql.connector.connect(user='pradeep',password='pra@123',host='localhost',database='bank')
 if cnx.is_connected()==False:
     print("unable to connect database")
 cursor=cnx.cursor()

@@ -1,3 +1,9 @@
+# Create New User by following:
+ 
+    CREATE USER 'pradeep'@'localhost;
+    GRANT ALL PRIVILEGES ON bank.* To 'pradeep'@'localhost' IDENTIFIED BY 'pra@123';
+    FLUSH PRIVILEGES;
+
 # 1: Account Create: 
         @ Insert
 # 2: Deposit:
